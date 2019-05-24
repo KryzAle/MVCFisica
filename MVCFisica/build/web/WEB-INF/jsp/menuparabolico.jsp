@@ -19,7 +19,8 @@
     <body>
         <div class="container">
             <header>
-                <h1>Movimiento Parabolico<span>Elija una Opcion</span></h1>	
+                <h1>Movimiento Parabolico<span>Elija una Opcion</span></h1>
+                <img src="https://i.ytimg.com/vi/gCtjHH9rx_c/maxresdefault.jpg" class="img-rounded" alt="MRU" style="width:40%">
                 <nav class="codrops-demos">
                     <a href="/MVCFisica/parabolico/calcularalcancemaximo.htm">Calcular Alcance Máximo</a>
                     <a href="/MVCFisica/parabolico/calcularalturamaxima.htm">Calcular Altura Máxima</a>

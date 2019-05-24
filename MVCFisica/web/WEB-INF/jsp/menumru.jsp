@@ -19,7 +19,8 @@
     <body>
         <div class="container">
             <header>
-                <h1>Movimiento Rectilineo Uniforme<span>Elija una Opcion</span></h1>	
+                <h1>Movimiento Rectilineo Uniforme<span>Elija una Opcion</span></h1>
+                <img src="https://www.fisicalab.com/sites/all/files/contenidos/intromov/mru.png" class="img-rounded" alt="MRU">
                 <nav class="codrops-demos">
                     <a href="/MVCFisica/mru/calculardistancia.htm">Calcular Distancia</a>
                     <a href="/MVCFisica/mru/calcularvelocidad.htm">Calcular Velocidad</a>
