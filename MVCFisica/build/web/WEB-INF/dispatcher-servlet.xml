@@ -17,6 +17,7 @@
     <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
     <mvc:view-controller path="/menumru.htm" view-name="menumru"/>
+    <mvc:view-controller path="/menuparabolico.htm" view-name="menuparabolico"/>
     
     <!--mi comentario-->
     

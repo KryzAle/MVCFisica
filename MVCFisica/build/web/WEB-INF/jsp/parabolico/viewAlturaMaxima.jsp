@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Resultado Velocidad</title>
+        <title>Resultado Tiempo</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -17,12 +17,13 @@
         <meta charset="ISO-8859-1">
     </head>
     <body>
-        <a href="/MVCFisica/mru/calcularvelocidad.htm" class="btn btn-info btn-lg">
+        <a href="/MVCFisica/parabolico/calcularalturamaxima.htm" class="btn btn-info btn-lg">
             <span class="glyphicon glyphicon-arrow-left"></span> Volver
         </a>
-    <center><h1>Velocidad Calculada</h1>
+    <center>
+        <h1>Altura máxima Calculada</h1>
         <h2>
-            ${requestScope.calculomru.velocidad}<br>
+            ${requestScope.calculoParabola.altura}<br>
         </h2>
     </center>
 </body>

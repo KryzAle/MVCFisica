@@ -25,7 +25,7 @@
                 <nav class="codrops-demos">
                     <a href="menumru.htm">MRU</a>
                     <a href="BusquedaProducto.jsp">Caída Libre</a>
-                    <a href="Auxiliar.jsp">Movimiento Parabólico</a>
+                    <a href="menuparabolico.htm">Movimiento Parabólico</a>
                 </nav>
             </header>
         </div><!-- /container -->

@@ -16,7 +16,7 @@
         <a href="/MVCFisica/menumru.htm" class="btn btn-info btn-lg">
             <span class="glyphicon glyphicon-arrow-left"></span> Volver
         </a>
-        <h1>Calcular Velocidad</h1>
+        <center><h1>Calcular Velocidad</h1></center>
         <div class="container">
             <h3>Ingrese los valores</h3>
             <hr>

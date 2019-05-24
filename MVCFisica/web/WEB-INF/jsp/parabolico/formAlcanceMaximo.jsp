@@ -13,18 +13,21 @@
         <meta charset="ISO-8859-1">
     </head>
     <body>
-        <a href="/MVCFisica/menumru.htm" class="btn btn-info btn-lg">
+        <a href="/MVCFisica/menuparabolico.htm" class="btn btn-info btn-lg">
             <span class="glyphicon glyphicon-arrow-left"></span> Volver
         </a>
-        <center><h1>Calcular Distancia</h1></center>
+        <center><h1>Calcular alcance Maximo</h1></center>
         <div class="container">
             <h3>Ingrese los valores</h3>
             <hr>
-            <form action="calculardistancia.htm" method="post" class="form-control" style="width: 500px; height: 230px">
-                Velocidad:
-                <input type="text" name="txtVelocidad" class="form-control" required/><br>
-                Tiempo:
+            <form action="calcularalcancemaximo.htm" method="post" class="form-control" style="width: 500px; height: 300px">
+                Velocidad Inicial (Metros/Segundo):
+                <input type="text" name="txtVelocidadInicial" class="form-control" required/><br>
+                Tiempo (Segundos):
                 <input type="text" name="txtTiempo" class="form-control"required/>
+                <br>
+                Angulo (Grados):
+                <input type="text" name="txtAngulo" class="form-control"required/>
                 <br>
                 <input type="submit" value="Calcular" class="btn btn-primary btn-lg"/>
             </form>

@@ -23,8 +23,6 @@ public class Mru {
 
     public Mru() {
     }
-    
-
     public float getEspacio() {
         return espacio;
     }
