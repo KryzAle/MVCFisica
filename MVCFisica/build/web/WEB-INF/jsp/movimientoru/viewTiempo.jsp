@@ -23,7 +23,7 @@
     <center>
         <h1>Tiempo Calculado</h1>
         <h2>
-            ${requestScope.calculomru.tiempo}<br>
+            ${requestScope.calculomru.tiempo} s<br>
         </h2>
     </center>
 </body>

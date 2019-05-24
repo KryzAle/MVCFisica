@@ -22,7 +22,7 @@
         </a>
     <center><h1>Velocidad Calculada</h1>
         <h2>
-            ${requestScope.calculomru.velocidad}<br>
+            ${requestScope.calculomru.velocidad} m/s<br>
         </h2>
     </center>
 </body>

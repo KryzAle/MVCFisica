@@ -19,7 +19,7 @@
     <center><h1>Distancia Calculada</h1>
 
         <h2>
-            ${requestScope.calculomru.espacio}<br>
+            ${requestScope.calculomru.espacio} m<br>
         </h2>
     </center>
 </body>
