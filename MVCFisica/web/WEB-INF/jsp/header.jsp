@@ -11,7 +11,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Plato - Clean responsive bootstrap website template</title>
+        <title>FA - Fisica Assistant</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Clean responsive bootstrap website template">
         <meta name="author" content="">
@@ -54,7 +54,7 @@
                             <div class="span4">
                                 <!-- logo -->
                                 <div class="logo">
-                                    <h1><a href="index.html">Plato</a></h1>
+                                    <h1><a href="index.htm">F-A</a></h1>
                                     <!-- <img src="assets/img/logo.png" alt="" /> -->
                                 </div>
                                 <!-- end logo -->
@@ -70,7 +70,7 @@
                                                     <a href="index.html">Home</a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a href="#">Features</a>
+                                                    <a href="/MVCFisica/caidalibre/teoria.htm">Features</a>
                                                     <ul class="dropdown-menu">
                                                         <li><a href="<c:url value="./index.htm"/>">Scaffolding</a></li>
                                                         <li><a href="base-css.html">Base CSS</a></li>

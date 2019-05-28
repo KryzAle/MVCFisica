@@ -18,6 +18,11 @@ import org.springframework.web.bind.annotation.RequestParam;
  */
 @Controller
 public class caidalibreController {
+    @RequestMapping(value = "/caidalibre/teoria.htm", method = RequestMethod.GET)
+    public String teoriaCaidaLibre(Model m) {
+        return "/caidalibre/teoriacaidalibre";
+    }
+
     @RequestMapping(value = "/caidalibre/calcularvf.htm", method = RequestMethod.GET)
     public String velocidadFinal(Model m) {
         return "/caidalibre/formVelocidadFinal";
