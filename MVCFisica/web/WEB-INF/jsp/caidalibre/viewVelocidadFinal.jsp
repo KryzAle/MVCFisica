@@ -1,24 +1,31 @@
+<%-- 
+    Document   : view
+    Created on : 20/05/2019, 13:52:20
+    Author     : labctr
+--%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Resultado Velocidad Final</title>
+        <title>Resultado Velocidad</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <meta charset="ISO-8859-1">
+        <%@include file="../header.jsp" %>
     </head>
     <body>
-        <a href="/MVCFisica/caidalibre/calcularvf.htm" class="btn btn-info btn-lg">
-            <span class="glyphicon glyphicon-arrow-left"></span> Volver
-        </a>
-    <center><h1>Velocidad Final Calculada</h1>
+        <section id="intro">
+            <center><h1>Velocidad Calculada</h1></center>
+        </section>
+        <section id="maincontent">
+            <div class="container">
+                <center><h2>${requestScope.calculoCaidaLibre.velocidadFinal} m<br></h2></center>
+                <div class="span8">
+                    <a href="/MVCFisica/caidalibre/calcularvf.htm" class="button btn btn-color btn-lg">
+                        Volver
+                    </a>
 
-        <h2>
-            ${requestScope.calculoCaidaLibre.velocidadFinal} m/s<br>
-        </h2>
-    </center>
-</body>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>

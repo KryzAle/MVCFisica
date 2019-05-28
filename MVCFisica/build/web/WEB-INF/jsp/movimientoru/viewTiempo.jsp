@@ -8,23 +8,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Resultado Tiempo</title>
+        <title>Resultado Velocidad</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <meta charset="ISO-8859-1">
+        <%@include file="../header.jsp" %>
     </head>
     <body>
-        <a href="/MVCFisica/mru/calculartiempo.htm" class="btn btn-info btn-lg">
-            <span class="glyphicon glyphicon-arrow-left"></span> Volver
-        </a>
-    <center>
-        <h1>Tiempo Calculado</h1>
-        <h2>
-            ${requestScope.calculomru.tiempo} s<br>
-        </h2>
-    </center>
-</body>
+        <section id="intro">
+            <center><h1>Tiempo Calculado</h1></center>
+        </section>
+        <section id="maincontent">
+            <div class="container">
+                <center><h2>${requestScope.calculomru.tiempo} s<br></h2></center>
+                <div class="span8">
+                    <a href="/MVCFisica/mru/calculartiempo.htm" class="button btn btn-color btn-lg">
+                        Volver
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
