@@ -17,15 +17,15 @@
         <meta name="author" content="">
 
 
-        <link rel="stylesheet" href="<c:url value="/assets/css/animate.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/css/font-awesome.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/css/refineslide.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/css/flexslider.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/google-code-prettify/prettify.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/css/prettyPhoto.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/css/docs.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/css/bootstrap-responsive.css"/>"/>
         <link rel="stylesheet" href="<c:url value="/assets/css/bootstrap.css"/>"/>
+        <link rel="stylesheet" href="<c:url value="/assets/css/bootstrap-responsive.css"/>"/>
+        <link rel="stylesheet" href="<c:url value="/assets/css/docs.css"/>"/>
+        <link rel="stylesheet" href="<c:url value="/assets/css/prettyPhoto.css"/>"/>
+        <link rel="stylesheet" href="<c:url value="/assets/js/google-code-prettify/prettify.css"/>"/>
+        <link rel="stylesheet" href="<c:url value="/assets/css/flexslider.css.css"/>"/>
+        <link rel="stylesheet" href="<c:url value="/assets/css/refineslide.css"/>"/>
+        <link rel="stylesheet" href="<c:url value="/assets/css/font-awesome.css"/>"/>
+        <link rel="stylesheet" href="<c:url value="/assets/css/animate.css"/>"/>
 
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700" rel="stylesheet">
@@ -35,20 +35,11 @@
         <link rel="stylesheet" href="<c:url value="/assets/color/default.css"/>"/>
 
         <!-- fav and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-
-        <link rel="stylesheet" href="<c:url value="/css/style.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/css/bootstrap.min.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/css/font-awesome.min.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/css/slicknav.min.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/css/owl.carousel.min.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/css/magnific-popup.css"/>"/>
-        <link rel="stylesheet" href="<c:url value="/css/animate.css"/>"/>
-
+        <link rel="shortcut icon" href="<c:url value="/assets/ico/favicon.ico"/>"/>
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<c:url value="/assets/ico/apple-touch-icon-144-precomposed.png"/>"/>
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<c:url value="/assets/ico/apple-touch-icon-114-precomposed.png"/>"/>
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<c:url value="/assets/ico/apple-touch-icon-72-precomposed.png"/>"/>
+        <link rel="apple-touch-icon-precomposed" href="<c:url value="/assets/ico/apple-touch-icon-57-precomposed.png"/>"/>
     </head>
 
     <body>
@@ -81,7 +72,7 @@
                                                 <li class="dropdown">
                                                     <a href="#">Features</a>
                                                     <ul class="dropdown-menu">
-                                                        <li><a href="scaffolding.html">Scaffolding</a></li>
+                                                        <li><a href="<c:url value="./index.htm"/>">Scaffolding</a></li>
                                                         <li><a href="base-css.html">Base CSS</a></li>
                                                         <li><a href="components.html">Components</a></li>
                                                         <li><a href="icons.html">Icons</a></li>
@@ -138,21 +129,22 @@
             </div>
         </header>
 
-        <link rel="stylesheet" href="<c:url value="/assets/js/jquery.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/modernizr.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/jquery.easing.1.3.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/google-code-prettify/prettify.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/bootstrap.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/jquery.prettyPhoto.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/portfolio/jquery.quicksand.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/portfolio/setting.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/hover/jquery-hover-effect.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/jquery.flexslider.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/classie.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/cbpAnimatedHeader.min.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/jquery.refineslide.js"/>"/>
-        <link rel="stylesheet" href="<c:url value="/assets/js/jquery.ui.totop.js"/>"/>
-        <!-- Template Custom Javascript File -->
-        <link rel="stylesheet" href="<c:url value="/assets/js/custom.js"/>"/>
+        <script src="<c:url value="/assets/js/jquery.js"/>"></script>
+        <script src="<c:url value="/assets/js/modernizr.js"/>"></script>
+        <script src="<c:url value="/assets/js/jquery.easing.1.3.js"/>"></script>
+        <script src="<c:url value="/assets/js/google-code-prettify/prettify.js"/>"></script>
+        <script src="<c:url value="/assets/js/bootstrap.js"/>"></script>
+        <script src="<c:url value="/assets/js/jquery.prettyPhoto.js"/>"></script>
+        <script src="<c:url value="/assets/js/portfolio/jquery.quicksand.js"/>"></script>
+        <script src="<c:url value="/assets/js/portfolio/setting.jss"/>"></script>
+        <script src="<c:url value="/assets/js/hover/jquery-hover-effect.js"/>"></script>
+        <script src="<c:url value="/assets/js/jquery.flexslider.js"/>"></script>
+        <script src="<c:url value="/assets/js/classie.js"/>"></script>
+        <script src="<c:url value="/assets/js/cbpAnimatedHeader.min.js"/>"></script>
+        <script src="<c:url value="/assets/js/jquery.refineslide.js"/>"></script>
+        <script src="<c:url value="/assets/js/jquery.ui.totop.js"/>"></script>
+        
+        <script src="<c:url value="/assets/js/custom.js"/>"></script>
+
     </body>
 </html>
