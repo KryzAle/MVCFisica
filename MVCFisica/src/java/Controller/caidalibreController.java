@@ -36,7 +36,7 @@ public class caidalibreController {
         return "/caidalibre/formPosicionFinal";
     }
     @RequestMapping(value = "/caidalibre/calcularpf.htm", method = RequestMethod.POST)
-    public String calcularPosicionFinal(@RequestParam("txtTiempo") double tiempo,
+    public String calcularpf(@RequestParam("txtTiempo") double tiempo,
             @RequestParam("txtAltura") double altura,
             Model m) {
         CaidaLibre cl=new CaidaLibre();

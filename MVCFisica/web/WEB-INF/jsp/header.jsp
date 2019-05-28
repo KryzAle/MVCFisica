@@ -11,7 +11,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Plato - Clean responsive bootstrap website template</title>
+        <title>FISICA</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Clean responsive bootstrap website template">
         <meta name="author" content="">
@@ -54,7 +54,7 @@
                             <div class="span4">
                                 <!-- logo -->
                                 <div class="logo">
-                                    <h1><a href="index.html">Plato</a></h1>
+                                    <h1><a href="<c:url value="/index.htm"/>">Fisica</a></h1>
                                     <!-- <img src="assets/img/logo.png" alt="" /> -->
                                 </div>
                                 <!-- end logo -->
@@ -67,54 +67,30 @@
                                         <nav>
                                             <ul class="nav topnav">
                                                 <li class="dropdown active">
-                                                    <a href="index.html">Home</a>
+                                                    <a href="<c:url value="/index.htm"/>">Home</a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a href="#">Features</a>
+                                                    <a href="/MVCFisica/movimientoru/teoria.htm">MRU</a>
                                                     <ul class="dropdown-menu">
-                                                        <li><a href="<c:url value="./index.htm"/>">Scaffolding</a></li>
-                                                        <li><a href="base-css.html">Base CSS</a></li>
-                                                        <li><a href="components.html">Components</a></li>
-                                                        <li><a href="icons.html">Icons</a></li>
-                                                        <li><a href="list.html">Styled lists</a></li>
-                                                        <li class="dropdown"><a href="#">3rd level</a>
-                                                            <ul class="dropdown-menu sub-menu">
-                                                                <li><a href="#">Example menu</a></li>
-                                                                <li><a href="#">Example menu</a></li>
-                                                                <li><a href="#">Example menu</a></li>
-                                                            </ul>
-                                                        </li>
+                                                        <li><a href="/MVCFisica/mru/calcularvelocidad.htm">Calcular Velocidad</a></li>
+                                                        <li><a href="/MVCFisica/mru/calculartiempo.htm">Calcular Tiempo</a></li>
+                                                        <li><a href="/MVCFisica/mru/calculardistancia.htm">Calcular Distancia</a></li>
+                                                        
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a href="#">Pages</a>
+                                                    <a href="/MVCFisica/parabolico/teoria.htm">Tiro Parabolico</a>
                                                     <ul class="dropdown-menu">
-                                                        <li><a href="about.html">About us</a></li>
-                                                        <li><a href="pricingtable.html">Pricing table</a></li>
-                                                        <li><a href="fullwidth.html">Fullwidth</a></li>
-                                                        <li><a href="404.html">404</a></li>
+                                                        <li><a href="/MVCFisica/parabolico/calcularalcancemaximo.htm">Calcular Alcance Maximo</a></li>
+                                                        <li><a href="/MVCFisica/parabolico/calcularalturamaxima.htm">Calcular Altura Maxima</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a href="#">Portfolio</a>
+                                                    <a href="/MVCFisica/caidalibre/teoria.htm">Caida Libre</a>
                                                     <ul class="dropdown-menu">
-                                                        <li><a href="portfolio-2cols.html">Portfolio 2 columns</a></li>
-                                                        <li><a href="portfolio-3cols.html">Portfolio 3 columns</a></li>
-                                                        <li><a href="portfolio-4cols.html">Portfolio 4 columns</a></li>
-                                                        <li><a href="portfolio-detail.html">Portfolio detail</a></li>
+                                                        <li><a href="/MVCFisica/caidalibre/calcularvf.htm">Calcular Velocidad Final</a></li>
+                                                        <li><a href="/MVCFisica/caidalibre/calcularpf.htm">Calcular Posicion Final</a></li>
                                                     </ul>
-                                                </li>
-                                                <li class="dropdown">
-                                                    <a href="#">Blog</a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="blog_left_sidebar.html">Blog left sidebar</a></li>
-                                                        <li><a href="blog_right_sidebar.html">Blog right sidebar</a></li>
-                                                        <li><a href="post_left_sidebar.html">Post left sidebar</a></li>
-                                                        <li><a href="post_right_sidebar.html">Post right sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="contact.html">Contact</a>
                                                 </li>
                                             </ul>
                                         </nav>
