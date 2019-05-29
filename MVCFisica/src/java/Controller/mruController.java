@@ -15,11 +15,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class mruController {
 
-    @RequestMapping(value = "/Libro/holaMundo.htm", method = RequestMethod.GET)
-    public String Hola(Model m) {
-        String nameMine = "Criss";
-        m.addAttribute("nombre", nameMine);
-        return "/Libro/holaMundo";
+    @RequestMapping(value = "/movimientoru/teoria.htm", method = RequestMethod.GET)
+    public String teoriaMRU(Model m) {
+        return "/movimientoru/teoriamru";
     }
 
     @RequestMapping(value = "/mru/calculardistancia.htm", method = RequestMethod.GET)

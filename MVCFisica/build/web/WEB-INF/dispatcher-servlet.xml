@@ -18,11 +18,6 @@
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
     <mvc:view-controller path="/menumru.htm" view-name="menumru"/>
     <mvc:view-controller path="/menuparabolico.htm" view-name="menuparabolico"/>
-<<<<<<< HEAD
-=======
-    <mvc:view-controller path="/menucaidalibre.htm" view-name="menucaidalibre"/>
-    <mvc:view-controller path="/header.htm" view-name="header"/>
->>>>>>> Develop
     
     <!--mi comentario-->
     

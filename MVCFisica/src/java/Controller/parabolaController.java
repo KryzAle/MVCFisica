@@ -14,6 +14,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class parabolaController {
+    @RequestMapping(value = "/parabolico/teoria.htm", method = RequestMethod.GET)
+    public String teoriaparabolico(Model m) {
+        return "/parabolico/teoriaparabolico";
+    }
 
 
     @RequestMapping(value = "/parabolico/calcularalcancemaximo.htm", method = RequestMethod.GET)

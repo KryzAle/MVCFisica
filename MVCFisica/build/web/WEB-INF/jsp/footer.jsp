@@ -49,7 +49,7 @@
                 <div class="row">
                     <div class="span6">
                         <p>
-                            &copy; Plato - All right reserved
+                            &copy; Alexkt-KryzAle - All right reserved
                         </p>
                     </div>
                     <div class="span6">
@@ -61,7 +61,6 @@
                                   Licensing information: https://bootstrapmade.com/license/
                                   Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Plato
                                 -->
-                                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
                             </div>
                         </div>
                     </div>
